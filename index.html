@@ -18,13 +18,48 @@
       font-weight: bold;
     }
 
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px black;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 30%;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .item img {
+      width: 200px;
+      height: 200px;
+
+      border-radius: 10px;
+    }
   </style>
 </head>
 
 <body>
   <div>
     <div class="title">Minha Loja</div>
-  </div>
+    <div class="container">
+      <div class="item">
+        <img class="item" src="images/camisa.png" alt="Foto de uma camisa de tênis de mesa.">
+      </div>
+      <div class="item">
+        <img class="item" src="images/tenis.png" alt="Foto do tênis Lefus, proprio para tênis de mesa.">
+      </div>
+      <div class="item"> <img class="item" src="images/bola.png" alt="Foto da Bolinha Tibhar 3 estrelas.">
+      </div>
+    </div>
 </body>
 
 </html>
